@@ -5,7 +5,15 @@ module.exports = {
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        '1/5': '20%',
+        '4/5':'80%'
+      }
+    },
+    fontFamily:{
+      'stroke':['stroke']
+    }
   },
   plugins: [],
 }

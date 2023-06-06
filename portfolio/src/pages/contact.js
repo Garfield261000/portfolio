@@ -1,16 +1,12 @@
-import * as React from 'react'
-import Layout from './layout'
+import React from 'react'
+import Layout from '../components/Layout'
 
-const ContactPage = () => {
-  return (
-    <Layout>
-     <div className='w-full min-h-screen bg-[#000000] text-white'>
-        <p>This is Contact</p>
-      </div>
-    </Layout>
-  )
+const Contact = () => {
+    return (
+        <Layout>
+            <div>Contact</div>
+        </Layout>
+    )
 }
 
-export const Head = () => <title>Contact</title>
-
-export default ContactPage
+export default Contact

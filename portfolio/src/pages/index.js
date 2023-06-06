@@ -1,19 +1,19 @@
 import * as React from 'react'
-import Layout from './layout'
+import Layout from '../components/Layout'
 import '../styles/global.css'
 
-const IndexPage = () => {
+const Home = () => {
   return (
     <Layout>
-      <div className='w-full min-h-screen bg-[#000000] text-white'>
-        <div>
-          <img src="" alt="" />
-        </div>
-      </div>
+      <section>
+        <p>Hi</p>
+        <p>Im Rishabh</p>
+        <p>A UI Developer</p>
+      </section>
     </Layout>
   )
 }
 
 export const Head = () => <title>Home</title>
 
-export default IndexPage
+export default Home
